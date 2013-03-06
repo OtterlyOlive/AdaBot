@@ -1,5 +1,5 @@
 QS = require "querystring"
 
 module.exports = (robot) ->
-	robot.respond /AngelBot (.*)/i, (msg) ->
+	robot.respond /.*/i, (msg) ->
 	      msg.reply "You are: #{msg.message.user.name}"
