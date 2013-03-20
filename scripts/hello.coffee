@@ -11,6 +11,6 @@ module.exports = (robot) ->
 		name = message.message.user.name
 		message.send "Welcome back Commander "+name+"."
 	
-	robot.hear /back/, (message) ->
+	robot.hear /back/s, (message) ->
 		name = message.message.user.name
 		message.send "Welcome back, Commander "+name+"."
