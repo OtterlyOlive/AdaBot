@@ -2,7 +2,7 @@ QS = require "querystring"
 
 content = [
 	'Welcome back Sir XXX, I trust you\'ve had a pleasent day?',
-	'I would like to welcome XXX either welcome, or welcome back to the channel!',
+	'I would like to either welcome, or welcome XXX, back to the channel!',
 	'Hello again XXX!',
 	'Updating Agent Status of Agent XXX to Online',
 	'Welcome back to the world of the living XXX!',
