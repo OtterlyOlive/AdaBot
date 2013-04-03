@@ -24,5 +24,5 @@ module.exports = (robot) ->
 			response.send "Operational status: Online. Awaiting command."
 		else
 			msg = response.random content
-			msg = msg.random.replace /XXX/, name
+			msg = msg.replace /XXX/, name
 			response.send msg
