@@ -23,6 +23,6 @@ module.exports = (robot) ->
 		if name == "AdaBot"
 			response.send "Operational status: Online. Awaiting command."
 		else
-			msg = message.random content
+			msg = response.random content
 			msg = msg.random.replace /XXX/, name
 			response.send msg
