@@ -7,7 +7,14 @@ content = [
 	'Updating Agent Status of Agent XXX to Online',
 	'Welcome back to the world of the living XXX!',
 	'Hi there XXX',
-	'Mjello XXX'
+	'Mjello XXX',
+	'Godday XXX',
+	'Oh hey look everybody! XXX is back from the dead!',
+	'Oh there you are XXX, we were just talking about you!',
+	'I\'m not mad that you have been gone for this long XXX, but I am pretty dissapointed about it...',
+	'Oh hey! Look who decided to show up! It\'s XXX!',
+	'Welcome back XXX :)',
+	'G\'day XXX!'
 ]
 
 
