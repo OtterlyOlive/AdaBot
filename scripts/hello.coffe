@@ -1,5 +1,0 @@
-QS = require "querystring"
-
-module.exports = (robot) ->
-	robot.respond /.*/i, (msg) ->
-	      msg.reply "You are: #{msg.message.user.name}"
