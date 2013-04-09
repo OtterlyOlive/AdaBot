@@ -25,7 +25,7 @@ content = [
 	'So as I was saying, me and XXX had this REALLY awkward moment - Oh hey XXX! How goes?',
 	'Ah welcome back XXX! I hope you enjoyed the porn I provided :)',
 	'His name is XXX, Mighty Pirate™!',
-	'I did not have a sexual relationship to that XXX.'
+	'I did not have sexual relations to that Person, Mr. XXX.'
 ]
 
 
