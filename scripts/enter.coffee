@@ -28,9 +28,11 @@ content = [
 	'I did not have sexual relations to that Person, Mr. XXX.',
 	'"What! Do you expect me to talk?" - XXX, "No Mr. XXX, I expect you to die!"',
 	'Your mother says Hi XXX :)',
-	'May our God watch over you XXX. And by God, I mean dog. And by dog, I mean hamster. All bless the mighy Hamster.',
+	'May our God watch over you XXX. And by God, I mean dog. And by dog, I mean hamster. All bless the mighty Hamster.',
 	'This is Alpha Dash Delta India Charlie Kilo, Tango has been spotted. I repeat, Tango has been spotted. XXX is in the net! Copy that Actual?',
-	'Rise and shine, XXX. Rise and... shine. Not that I... wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let\'s just say your hour has... come again. The right man in the wrong place can make all the difference in the world. So, wake up, XXX. Wake up and... smell the ashes...'
+	'Rise and shine, XXX. Rise and... shine. Not that I... wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let\'s just say your hour has... come again. The right man in the wrong place can make all the difference in the world. So, wake up, XXX. Wake up and... smell the ashes...',
+	'Welcome to Pandora, XXX!',
+	'The stripper\'s here boys! It\'s XXX! WUH! :D'
 ]
 
 
