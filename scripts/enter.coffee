@@ -30,10 +30,6 @@ content = [
 
 
 module.exports = (robot) ->
-		robot.hear /happy birthday/i, (message) ->
-			message.send message.random content
-
-module.exports = (robot) ->
 	robot.enter (response) ->
 		name = response.message.user.name
 		name = name.charAt(0).toUpperCase() + name.slice(1)
