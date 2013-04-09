@@ -23,7 +23,9 @@ content = [
 	'Welcome, welcome to city 17, XXX. You have chosen or been chosen to relocate to one of our finest remaining urban centers.  I thought so much of city 17 that I elected to establish my administration here, in the citadel so	thoughtfully provided by our benefactors. I have been proud to call city 17 my 	home. So whether you are here to stay, or passing through on your way to parts unknown, welcome to city 17, it is safer here.',
 	'"Hello, I\'m XXX, and this is my favorite channel on IRC" - XXX',
 	'So as I was saying, me and XXX had this REALLY awkward moment - Oh hey XXX! How goes?',
-	'Ah welcome back XXX! I hope you enjoyed the porn I provided :)'
+	'Ah welcome back XXX! I hope you enjoyed the porn I provided :)',
+	'His name is XXX, Mighty Pirate™!',
+	'I did not have a sexual relationship to that XXX.'
 ]
 
 
@@ -40,5 +42,5 @@ module.exports = (robot) ->
 			response.send "Operational status: Online. Awaiting command."
 		else
 			msg = response.random content
-			msg = msg.replace /XXX/, name
+			msg = msg.replace /XXX/g, name
 			response.send msg
