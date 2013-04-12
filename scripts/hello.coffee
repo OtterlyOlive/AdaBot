@@ -10,3 +10,6 @@ module.exports = (robot) ->
 
 	robot.hear /This is actual. Copy that. Fire at will/, (message) ->
 		message.send "Copy that Actual"
+
+	robot.hear /This is actual, initiate omega protocol/, (message) ->
+		message.send "Copy that Actual. Starting complete humanity wipeout. Please hold"
