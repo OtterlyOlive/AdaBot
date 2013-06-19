@@ -13,3 +13,6 @@ module.exports = (robot) ->
 
 	robot.hear /This is actual, initiate omega protocol/, (message) ->
 		message.send "Copy that Actual. Starting complete humanity wipeout. Please hold"
+
+	robot.hear /putted/, (message) ->
+		message.send "I'm pretty sure you mean 'put', "+message.message.user.name+" :)"
