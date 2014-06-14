@@ -1,10 +1,10 @@
 QS = require "querystring"
 
 module.exports = (robot) ->
-	robot.hear /AdaBot\?/, (message) ->
+	robot.hear /AdaGirl\?/, (message) ->
 		message.send "Affirmative Commander."
 
-	robot.hear /Thanks AdaBot/, (message) ->
+	robot.hear /Thanks AdaGirl/, (message) ->
 		name = message.message.user.name
 		message.send "You're welcome "+name+"!"
 

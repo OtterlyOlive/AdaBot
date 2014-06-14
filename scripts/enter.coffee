@@ -41,7 +41,7 @@ content = [
 #		name = response.message.user.name
 #		name = name.charAt(0).toUpperCase() + name.slice(1)
 #
-#		if name == "AdaBot"
+#		if name == "AdaGirl"
 #			response.send "Operational status: Online. Awaiting command."
 #		else
 #			msg = response.random content
