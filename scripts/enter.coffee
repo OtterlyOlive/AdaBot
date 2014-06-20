@@ -36,14 +36,14 @@ content = [
 ]
 
 
-module.exports = (robot) ->
-	robot.enter (response) ->
-		name = response.message.user.name
-		name = name.charAt(0).toUpperCase() + name.slice(1)
-
-		if name == "Celestine"
-			response.send "Operational status: Online. Awaiting command."
-		else
-			msg = response.random content
-			msg = msg.replace /XXX/g, name
-			response.send msg
+#module.exports = (robot) ->
+#	robot.enter (response) ->
+#		name = response.message.user.name
+#		name = name.charAt(0).toUpperCase() + name.slice(1)
+#
+#		if name == "Celestine"
+#			response.send "Operational status: Online. Awaiting command."
+#		else
+#			msg = response.random content
+#			msg = msg.replace /XXX/g, name
+#			response.send msg
