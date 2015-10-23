@@ -3,10 +3,10 @@ QS = require "querystring"
 # forked from hilotter's "CountDownTimer (CoffeeScript)" http://jsdo.it/hilotter/io9a
 
 countDown = ->
-  target = new Date '2015/10/23 18:00:00'
-  ancillaryTarget = new Date '2015/10/25 18:00:00'
+  target = new Date '2015/10/23 16:00:00'
+  ancillaryTarget = new Date '2015/10/25 16:00:00'
     
-  targetString = "until the revelation of this Gecko Jam's Theme!"
+  targetString = "until the revealing of this Gecko Jam's Theme!"
   
   today = new Date
   diff = target - today
