@@ -42,4 +42,4 @@ module.exports = (robot) ->
 		message.send "I'm pretty sure you mean 'put', "+message.message.user.name+" :)"
 
 	robot.hear /!time/, (message) ->
-		message.send countDown
+		message.send countDown()
